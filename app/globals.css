@@ -1,0 +1,21 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+.gradient-background {
+  background-color: #ff99eb;
+  background-image: radial-gradient(at 67% 81%, hsla(181,70%,74%,1) 0px, transparent 50%),
+  radial-gradient(at 61% 11%, hsla(183,67%,68%,1) 0px, transparent 50%),
+  radial-gradient(at 84% 80%, hsla(7,94%,64%,1) 0px, transparent 50%),
+  radial-gradient(at 4% 76%, hsla(186,72%,68%,1) 0px, transparent 50%),
+  radial-gradient(at 83% 95%, hsla(118,67%,72%,1) 0px, transparent 50%),
+  radial-gradient(at 33% 6%, hsla(169,96%,69%,1) 0px, transparent 50%),
+  radial-gradient(at 82% 76%, hsla(250,68%,72%,1) 0px, transparent 50%);
+}

@@ -1,0 +1,30 @@
+{
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+  },
+  "terminal.integrated.fontFamily": "Hack Nerd Font",
+  "terminal.integrated.fontSize": 14,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "quickfix.biome": "always",
+      "source.organizeImports.biome": "always"
+    },
+  },
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+  "typescript.format.semicolons": "insert",
+  "notebook.defaultFormatter": "biomejs.biome",
+  "editor.defaultFormatter": "biomejs.biome",
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "quickfix.biome": "always",
+      "source.organizeImports.biome": "always"
+    }
+  },
+  "editor.defaultFoldingRangeProvider": "biomejs.biome",
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+}
