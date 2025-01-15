@@ -53,7 +53,7 @@ npm install
 
 # Frontend (.env.local)
 GEMINI_API_KEY="your api key"
-
+<a href="https://ai.google.dev/gemini-api/docs" target="_blank">Gemini API</a>
 
 # Frontend (in a new terminal)
 ```console
